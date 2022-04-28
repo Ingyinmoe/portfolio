@@ -1,0 +1,70 @@
+.theme-switcher{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    background-color: var(--bg-black-100);
+    border-radius: 5px;
+    border: 1px solid var(--bg-black-50);
+    width: 200px;
+    z-index: 101;
+    padding: 15px;
+    transition: all .4s ease;
+    transform: translateX(100%);
+}
+.theme-switcher.open{
+    transform: translateX(12px);
+}
+.theme-switcher .theme-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--bg-black-100);
+    color: var(--text-black-900);
+    font-size: 20px;
+    right: 100%;
+    text-align: center;
+    margin-right: 26px;
+    cursor: pointer;
+}
+.theme-switcher .theme-icon i{
+    line-height: 40px;
+}
+.theme-switcher-toggle{
+    top: 0;
+}
+.day-night-switch{
+    top: 60px;
+}
+.theme-switcher h4{
+    color: var(--skin-color);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.theme-switcher .theme-color{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme-color span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color-1{
+    background-color: #ec1839;
+}
+.color-2{
+    background-color: #fa5b0f;
+}
+.color-3{
+    background-color: #37b182;
+}
+.color-4{
+    background-color: #1854b4;
+}
+.color-5{
+    background-color: #f021b2;
+}
